@@ -1,0 +1,9 @@
+.posts-wrapper.row
+  .post
+    .post-head
+      .name
+        James
+    .image.center-block
+      = image_tag @post.image.url(:medium), class: 'img-responsive'
+    %p.caption
+      =@post.caption
